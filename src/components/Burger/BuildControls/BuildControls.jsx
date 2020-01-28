@@ -1,14 +1,14 @@
-import React from "react";
+import React from "react"
 
-import classes from "./buildControls.module.css";
-import BuildControl from "../BuildControls/buildControl";
+import classes from "./buildControls.module.css"
+import BuildControl from "../BuildControls/buildControl"
 
 const controls = [
   { label: "salad", type: "salad" },
   { label: "meat", type: "meat" },
   { label: "cheese", type: "cheese" },
   { label: "bacon", type: "bacon" }
-];
+]
 
 const BuildControls = ({
   ingredientAdded,
@@ -29,6 +29,6 @@ const BuildControls = ({
         />
       ))}
     </div>
-  );
-};
-export default BuildControls;
+  )
+}
+export default BuildControls
